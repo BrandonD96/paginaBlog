@@ -1,6 +1,9 @@
 @extends('layout.template');
+@section('title')
+Cliente y servidor
+@endsection
 @section('titulo')
-Cliente y servidor.
+Cliente y servidor
 @endsection
 @section('subtitulo')
 Concepto de cliente servidor
@@ -9,7 +12,7 @@ Concepto de cliente servidor
 images/cliente-servidor.png
 @endsection
 @section('imagen_autor')
-images/conexion.png
+images/logo_brandon.jpg
 @endsection
 @section('autor')
 Brandon Duran

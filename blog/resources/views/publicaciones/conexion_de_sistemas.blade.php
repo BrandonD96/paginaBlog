@@ -1,4 +1,7 @@
 @extends('layout.template');
+@section('title')
+Sistemas de conexión libre y a través de redes
+@endsection
 @section('titulo')
 Sistemas de conexión libre y a través de redes
 @endsection
@@ -8,8 +11,11 @@ Definicion
 @section('autor')
 Brandon Duran
 @endsection
+@section('imagen_texto')
+images/sistemas_de_conexion.jpg
+@endsection
 @section('imagen_autor')
-images/conexion.png
+images/logo_brandon.jpg
 @endsection
 @section('fecha')
 30/01/2022

@@ -38,7 +38,28 @@ Route::get('/conexion_de_sistemas', function () {
     return view('publicaciones.conexion_de_sistemas');
 })->name('conexion_de_sistemas');
 
+Route::get('/arquitectura_cliente_servidor', function () {
+    return view('publicaciones.arquitectura_cliente_servidor');
+})->name('arquitectura_cliente_servidor');
 
-Route::get('/prueba', function () {
-    return view('publicaciones.prueba');
-})->name('prueba');
+Route::get('/conceptos_de_sistemas', function () {
+    return view('publicaciones.conceptos_de_sistemas');
+})->name('conceptos_de_sistemas');
+
+Route::get('/evolución_de_los_sistemas', function () {
+    return view('publicaciones.evolución_de_los_sistemas');
+})->name('evolución_de_los_sistemas');
+
+Route::get('/protocolos', function () {
+    return view('publicaciones.protocolos');
+})->name('protocolos');
+
+
+Route::get('/clasificar_los_sistemas', function () {
+    return view('publicaciones.clasificar_los_sistemas');
+})->name('clasificar_los_sistemas');
+
+Route::get('/diagramacion_de_componentes', function () {
+    return view('publicaciones.diagramacion_de_componentes');
+})->name('diagramacion_de_componentes');
+

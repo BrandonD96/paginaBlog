@@ -1,4 +1,7 @@
 @extends('layout.template');
+@section('title')
+Computadoras centrales y dedicadas
+@endsection
 @section('titulo')
 Computadoras centrales y dedicadas
 @endsection
@@ -9,7 +12,7 @@ Definicion
 images/computadora-central.jpg
 @endsection
 @section('imagen_autor')
-images/conexion.png
+images/logo_brandon.jpg
 @endsection
 @section('autor')
 Brandon Duran
